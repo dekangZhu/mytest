@@ -1,0 +1,27 @@
+样板工程
+This is a template project for backend service. You should copy this project before you create a new project for backend service.
+
+1.Set up dev environment
+  * jdk:1.8.0_60  
+  参考： http://weixiaolu.iteye.com/blog/1401786  unbuntu搭建jdk环境详解
+
+  * Git: https://git-scm.com/download
+  参考： http://www.cnblogs.com/wanqieddy/archive/2012/08/03/2621027.html  git的配置
+        http://www.xitongzhijia.net/xtjc/20150320/42270.html    unbuntu安装git及基本操作方法
+        http://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html   git使用ssh密钥连接Github
+        http://www.open-open.com/lib/view/open1414396787325.html    git入门详细教程
+        http://blog.sina.com.cn/s/blog_63eb3eec0101cf6x.html    git上传代码的操作
+
+  * IntelliJ/eclipse
+  参考：http://blog.csdn.net/gavin_dinggengjia/article/details/7364375   unbuntu安装eclipse详解
+        http://www.cnblogs.com/Lyush/p/4114971.html   unbuntu安装idea教程（idea是收费软件,建议使用eclipse）
+
+  * gradle: 版本2.5
+  参考：--Eclipse Marketplace--find:gradle--install first （在eclipse中安装gradle插件）
+  参考： http://blog.csdn.net/stwstw0123/article/details/47809189  unbuntu安装gradle教程
+2.Build & Run
+  * Execute './gradlew bootRun' on Mac
+  * Execute 'gradlew.bat bootRun' on Windows
+
+3.Access http://localhost:8080/products
+         http://localhost:8080/accounts
